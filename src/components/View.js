@@ -60,7 +60,7 @@ const View = (props) => {
                 <Article
                   key={article.id}
                   article={article}
-                  handleDelete={() => handleDelete(article.id)}
+                  handleDelete={handleDelete}
                   handleEditSelect={handleEditSelect}
                 />
               </ArticleDivider>
